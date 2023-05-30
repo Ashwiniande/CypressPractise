@@ -10,12 +10,12 @@ describe('template spec', function() {
     
   })
 
-  it('sample fails', () =>{
+  it('sample pass`', () =>{
     cy.visit('https://example.cypress.io')
-    cy.get('h1').should('have.text', 'Xyz');
+    cy.get('h1').should('have.text', 'Kitchen Sink');
   })
   it('sample fails', () =>{
     cy.visit('https://example.cypress.io')
-    cy.get('h2').should('have.text', 'Xyz');
+    cy.get('h2').should('have.text', 'andfs');
   })
 })

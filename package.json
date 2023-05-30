@@ -1,7 +1,7 @@
 {
   "name": "project_cypress_automation_new",
   "version": "1.0.0",
-  "description": "",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.13.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3"
   }
 }
