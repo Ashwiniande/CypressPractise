@@ -14,4 +14,8 @@ describe('template spec', function() {
     cy.visit('https://example.cypress.io')
     cy.get('h1').should('have.text', 'Xyz');
   })
+  it('sample fails', () =>{
+    cy.visit('https://example.cypress.io')
+    cy.get('h2').should('have.text', 'Xyz');
+  })
 })
