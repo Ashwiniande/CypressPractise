@@ -38,7 +38,7 @@ it('Identifying the elements using CSS-tag class and attribute locator', () => {
     cy.get('#log-in').click();
 
 })
-it('Identifying the elements using CSS-tag class and attribute locator', () => {
+it('Identifying the elements using xpath', () => {
     cy.visit('https://demo.applitools.com/')
     cy.wait(3000);
     cy.xpath('//input[@id="username"]').type('username');
