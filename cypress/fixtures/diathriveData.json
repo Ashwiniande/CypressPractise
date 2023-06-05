@@ -1,7 +1,8 @@
 {
     "url":"https://admin-staging.diathrive.com/",
     "Email": "newstaging@test.com",
-    "Password": "Test@1234"
+    "Password": "Test@1234",
+    "URL":"https://demoqa.com/checkbox"
+    
 
-}
-   
+}   
