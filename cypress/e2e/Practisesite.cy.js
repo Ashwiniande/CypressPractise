@@ -1,7 +1,6 @@
 
 import { homePage } from '../PageObjects/HomePage.cy'
 
-
 import diathriveData from '../fixtures/diathriveData.json' 
 describe('Practise sites', () => {
 
