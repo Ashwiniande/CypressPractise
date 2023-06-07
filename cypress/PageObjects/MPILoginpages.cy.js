@@ -1,6 +1,6 @@
 
 import mpidata from '../fixtures/mpidata.json'
-class MPIpages {
+class MPILoginpages {
     //these are called in main code
  Visiturl(){
     return cy.visit(mpidata.url);
@@ -20,8 +20,10 @@ class MPIpages {
    getSubmit(){
     return cy.get('button[type="submit"]');
    }
-    
-    
+   Productsales(){
+      return cy.get('div[class="col-sm-12"] h4[class="card-title"]');
+   }   
+   
     
 }
-    export const mpipages = new MPIpages();
+    export const mpiloginpages = new MPILoginpages();
