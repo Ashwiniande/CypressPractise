@@ -33,7 +33,7 @@ describe('Users screen' , () => {
 
         const cellValue = $cell.text();
         cy.log("cell text = "+cellValue)
-    })
+    }) 
     })
 })
 
